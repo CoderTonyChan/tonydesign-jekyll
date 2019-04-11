@@ -13,8 +13,8 @@ bundle update
 
 # Build a new gem archive.
 
-rm -rf mifa-jekyll-*.gem
-gem build -q mifa-jekyll.gemspec
+rm -rf jekyll-theme-cayman-*.gem
+gem build -q jekyll-theme-cayman.gemspec
 
 # Make sure we're on the master branch.
 
@@ -25,7 +25,7 @@ gem build -q mifa-jekyll.gemspec
 
 # Figure out what version we're releasing.
 
-tag=v`ls mifa-jekyll-*.gem | sed 's/^mifa-jekyll-\(.*\)\.gem$/\1/'`
+tag=v`ls jekyll-theme-cayman-*.gem | sed 's/^jekyll-theme-cayman-\(.*\)\.gem$/\1/'`
 
 # Make sure we haven't released this version before.
 
@@ -38,5 +38,5 @@ git fetch -t origin
 
 # Tag it and bag it.
 
-gem push mifa-jekyll-*.gem && git tag "$tag" &&
+gem push jekyll-theme-cayman-*.gem && git tag "$tag" &&
   git push origin master && git push origin "$tag"
