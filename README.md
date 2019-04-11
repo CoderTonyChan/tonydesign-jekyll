@@ -10,6 +10,9 @@ Demo 地址：[https://phodal.github.io/mifa-jekyll/](https://phodal.github.io/m
 remote_theme: CoderTonyChan/tonydesign-jekyll
 ```
 
+## tonydesign-gallery-theme
+
+
 
 ## Customizing
 
