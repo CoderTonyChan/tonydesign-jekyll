@@ -24,7 +24,7 @@
 
     <header class="page-header" role="banner" 
     {% if site.background-image %}
-       style="background: url(http://sf6-tccdn-tos.pstatp.com/obj/tuchong-avatar/h_2301626_1)"
+       style="background: url({{site.background-image}})"
     {% endif %} 
     >
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>

@@ -8,6 +8,8 @@ Demo 地址：[https://phodal.github.io/mifa-jekyll/](https://phodal.github.io/m
 
 ```
 remote_theme: CoderTonyChan/tonydesign-jekyll
+google_analytics:
+background-image: http://sf6-tccdn-tos.pstatp.com/obj/tuchong-avatar/h_2301626_1
 ```
 
 ## tonydesign-gallery-theme
