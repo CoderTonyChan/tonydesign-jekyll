@@ -1,0 +1,75 @@
+.pagelist-wrapper {
+    font-size: 0;
+    margin: 40px;
+    min-width: 1132px;
+    min-height: 600px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagelist-wrapper .post-photo {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    background: #e0e0e0;
+    vertical-align: middle;
+}
+.pagelist-wrapper .post-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 15px;
+    opacity: 0;
+    -webkit-transition: opacity .2s ease-out,background .2s ease-out;
+    -moz-transition: opacity .2s ease-out,background .2s ease-out;
+    transition: opacity .2s ease-out,background .2s ease-out;
+}
+
+
+
+.pagelist-wrapper .post-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    word-break: break-all;
+    display: inline-block;
+    margin-right: 10px;
+}
+.pagelist-wrapper p {
+    margin: 0;
+}
+
+.pagelist-wrapper .post-action {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    line-height: 32px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}

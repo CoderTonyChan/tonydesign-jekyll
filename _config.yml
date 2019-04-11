@@ -6,3 +6,4 @@ theme: jekyll-theme-cayman
 
 google_analytics:
 background-image: http://sf6-tccdn-tos.pstatp.com/obj/tuchong-avatar/h_2301626_1
+include: gallery.html
