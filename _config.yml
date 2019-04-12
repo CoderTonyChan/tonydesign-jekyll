@@ -13,8 +13,13 @@ include: gallery.html
 images: 
     - title: 爱人
       src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
+      w: 1024
+      h: 683
     - title: 爱人
       src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
+      w: 1024
+      h: 683
     - title: 爱人
       src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
-
+      w: 1024
+      h: 683
