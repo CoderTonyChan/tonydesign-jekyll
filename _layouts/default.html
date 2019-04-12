@@ -13,12 +13,21 @@
         $(this).css('opacity', '0');
       });
   })
+
+  // 其他
+  $(document).ready(function () {
+    let a = `{{site.images}}`;
+    console.log(a);
+
+
+    let b = `{{site.images | jsonify}}`;
+    console.log(b);
+  })
 </script>
 
 
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
@@ -58,6 +67,8 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      {{site.images}}
+      {{ site.images | jsonify }}
       <!-- tuchong‘s page-content -->
       <!-- {% if site.include.enable %}
       {% include {{ site.include.html }} %}
