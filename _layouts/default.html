@@ -1,5 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+
+
+<!-- hover效果 -->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.page-content .post-info').hover(
+      function () {
+        $(this).css('opacity', '1');
+      },
+      function () {
+        $(this).css('opacity', '0');
+      });
+  })
+</script>
+
+
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
 
     {% if site.google_analytics %}
