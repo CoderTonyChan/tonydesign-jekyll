@@ -42,8 +42,8 @@
       {{ content }}
 
       <!-- tuchong‘s page-content -->
-      {% if site.include %}
-      {% include {{ site.include }} %}
+      {% if site.include.enable %}
+      {% include {{ site.include.html }} %}
       {% endif %}
 
 
