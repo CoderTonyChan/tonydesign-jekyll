@@ -8,7 +8,7 @@ google_analytics:
 background-image: http://sf6-tccdn-tos.pstatp.com/obj/tuchong-avatar/h_2301626_1
 
 # You can use tuchong‘s page-content, css is fited.
-include: gallery.html
+# include: gallery.html
 
 images: 
     - title: 爱人

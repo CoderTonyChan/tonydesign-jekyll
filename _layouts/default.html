@@ -98,8 +98,6 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      {{site.images}}
-      {{ site.images | jsonify }}
       <!-- tuchong‘s page-content -->
       <!-- {% if site.include.enable %}
       {% include {{ site.include.html }} %}
@@ -192,7 +190,7 @@
       </button>
       <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
       </button>
-      <div class="pswp__caption">
+      <div class="pswp__caption" style="text-align: center;">
         <div class="pswp__caption__center"></div>
       </div>
     </div>

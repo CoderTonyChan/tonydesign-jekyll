@@ -6,10 +6,23 @@ Demo 地址：[https://phodal.github.io/mifa-jekyll/](https://phodal.github.io/m
 
 使用方式，在 GitHub Pages 里创建 ``_config.yml`` 文件，并添加以下的内容来启用 Mifa 主题：
 
-```
+```yml
 remote_theme: CoderTonyChan/tonydesign-jekyll
 google_analytics:
 background-image: http://sf6-tccdn-tos.pstatp.com/obj/tuchong-avatar/h_2301626_1
+images: 
+    - title: 爱人
+      src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
+      w: 1024
+      h: 683
+    - title: 爱人
+      src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
+      w: 1024
+      h: 683
+    - title: 爱人
+      src: 'https://photo.tuchong.com/2301626/ft640/209322359.jpg'
+      w: 1024
+      h: 683
 ```
 
 ## tonydesign-gallery-theme
