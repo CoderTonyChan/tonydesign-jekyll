@@ -35,20 +35,20 @@
     display: inline-block;
     @include large {
       height: 30rem; 
-      width: 45%;
-      margin-bottom: 1rem;
+      width: 48%;
+      margin: 0 1rem 1rem 0
     }
 
     @include medium {
-      height: 18rem; 
+      height: 40rem; 
       width: 100%;
-      margin-bottom: 1rem;
+      margin-bottom: 1rem
     }
 
     @include small {
-      height: 10rem; 
+      height: 24rem; 
       width: 100%;
-      margin-bottom: 1rem;
+      margin-bottom: 1rem
     }
 }
 .pagelist-wrapper .post-info {
