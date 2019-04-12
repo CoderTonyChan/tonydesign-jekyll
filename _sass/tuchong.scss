@@ -1,7 +1,7 @@
 .pagelist-wrapper {
     font-size: 0;
     margin: 40px;
-    min-width: 1132px;
+    // min-width: 1132px;
     min-height: 600px;
     list-style: none;
     padding: 0;
@@ -9,11 +9,27 @@
 }
 
 .pagelist-wrapper .post-photo {
-    display: none;
     position: relative;
     cursor: pointer;
     background: #e0e0e0;
     vertical-align: middle;
+    display: inline-block;
+    @include large {
+      height: 30rem; 
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    @include medium {
+      height: 18rem; 
+      margin-bottom: 1rem;
+    }
+
+    @include small {
+      height: 10rem; 
+      width: 100%;
+      margin-bottom: 1rem;
+    }
 }
 .pagelist-wrapper .post-info {
     position: absolute;
@@ -30,6 +46,8 @@
     -webkit-transition: opacity .2s ease-out,background .2s ease-out;
     -moz-transition: opacity .2s ease-out,background .2s ease-out;
     transition: opacity .2s ease-out,background .2s ease-out;
+
+
 }
 
 
